@@ -37,7 +37,8 @@ There was no conflict after the merge of new_branch into master .
 
 8
 --------------------------------------------
-
+make dir lab1 , (I also had to delete the previously created ones)
+put README file into the lab1 dir .
 
 
 
