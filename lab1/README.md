@@ -41,4 +41,3 @@ There was no conflict after the merge of new_branch into master .
 
 
 
-
