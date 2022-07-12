@@ -47,8 +47,7 @@ edited the file , used git pull to sync the local repo with the remote one . Als
 10
 ---------------------------------------------
 
-<img src="/Users/mario/testScripts/photo.jpeg" alt="DORADO" style="height: 100px; width:100px;"/>
-
+![alt text](https://icon-library.com/images/url-icon-png/url-icon-png-20.jpg)
 
 
 
