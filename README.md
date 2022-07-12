@@ -26,3 +26,19 @@ git checkout -b <name> , which will do both
 4
 -----------------------------------
 The changes are missing in master since we are working in another branch right now . Fixed that with git merge new_branch which is the name of the branch I worked in . 
+
+6
+--------------------------------------------
+just saw that the merge request had to be done in the 6 task so I messed it a bit by doing it earlier . Will skip this as it is done and described in the readme log above . Command used git checkout master , git merge new_branch
+
+7
+--------------------------------------------
+There was no conflict after the merge of new_branch into master . 
+
+8
+--------------------------------------------
+
+
+
+
+
