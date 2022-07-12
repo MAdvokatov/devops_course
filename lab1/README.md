@@ -47,8 +47,7 @@ edited the file , used git pull to sync the local repo with the remote one . Als
 10
 ---------------------------------------------
 
-![alt text](https://icon-library.com/images/url-icon-png/url-icon-png-20.jpg)
-
+![text](photo.jpeg)
 
 
 
