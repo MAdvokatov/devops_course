@@ -40,5 +40,7 @@ There was no conflict after the merge of new_branch into master .
 make dir lab1 , (I also had to delete the previously created ones)
 put README file into the lab1 dir .
 
-
+9
+--------------------------------------------
+edited the file , used git pull to sync the local repo with the remote one . Also had to commit the changes I had done to the local repo before that so I could have been able to pull . 
 
