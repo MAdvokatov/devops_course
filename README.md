@@ -25,4 +25,4 @@ git checkout -b <name> , which will do both
 
 4
 -----------------------------------
-The changes are missing in master since we are working in another branch right now . 
+The changes are missing in master since we are working in another branch right now . Fixed that with git merge new_branch which is the name of the branch I worked in . 
