@@ -44,3 +44,6 @@ put README file into the lab1 dir .
 --------------------------------------------
 edited the file , used git pull to sync the local repo with the remote one . Also had to commit the changes I had done to the local repo before that so I could have been able to pull . 
 
+10
+---------------------------------------------
+https://media.istockphoto.com/photos/mahi-swimming-in-ocean-picture-id179021969?k=20&m=179021969&s=612x612&w=0&h=2p2wEquGzXem4bwDvDIjITmriEQQUonmDEpu-kBgLBg=
