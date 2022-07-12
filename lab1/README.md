@@ -46,8 +46,8 @@ edited the file , used git pull to sync the local repo with the remote one . Als
 
 10
 ---------------------------------------------
-![TEXT TO SHOW ... ](/Users/mario/testScripts/photo.jpeg "Text mouseover")
 
+<img src="/Users/mario/testScripts/photo.jpeg" alt="DORADO" style="height: 100px; width:100px;"/>
 
 
 
