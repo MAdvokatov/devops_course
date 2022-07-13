@@ -5,6 +5,7 @@ git clone https://github.com/BobasB/devops_course.git
 
 2
 -----------------------------------
+command used :
 git log 
 
 Author: Mario <ma.advo@abv.bg>
@@ -49,7 +50,9 @@ edited the file , used git pull to sync the local repo with the remote one . Als
 
 ![text](photo.jpeg)
 
-
+11
+---------------------------------------------
+Couldnt use fork since I created this in my own repo . But to complete the tasks remaining I will just copy this file and put it in the forked original repo of Bohdan . Will also create 2022 folder to put it there . 
 
 
 
