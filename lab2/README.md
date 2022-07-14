@@ -34,6 +34,12 @@ TASK 10 - > The command I used was:
 #used python3 instead of python as I have an alias for python 10 as python and the project here uses 3.7 (as per the initial installation for pipenv) .
  
 
+TASK 11 - > Committed and pushed .
+
+TASK 12 - > Updated the Makefile so it can go through all the steps automatically . 
+
+TASK 13 - > Will commit and push to the repo again so I can clone it after that on the Ubuntu(I created an AWS instance as it is quicker than a new virtual box)
+
 
 
 
