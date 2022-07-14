@@ -28,9 +28,10 @@ def check_day_or_night(d):
         night = "AM"
         if day in d['time']:
             print("GOOD DAY")
+            return "GOOD DAY"
         elif night in d['time']:
             print("GOOD NIGHT")
-
+            return "GOOD NIGHT"
 
 def main(url=''):
     if not url:
@@ -67,3 +68,4 @@ if __name__ == "__main__":
     main('http://date.jsontest.com/')
     a = my_good_fun()
     print(a)
+

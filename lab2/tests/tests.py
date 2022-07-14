@@ -1,5 +1,6 @@
 import unittest
-from app import main, my_good_fun
+from app import main, my_good_fun, check_day_or_night
+import requests
 
 
 class TestClass(unittest.TestCase):
@@ -24,6 +25,11 @@ class TestClass(unittest.TestCase):
     def test_home_work(self):
         # Ваш захист
         self.assertTrue(True)
+
+    def test_task_9_DAY(self):
+        url = "http://date.jsontest.com/"
+        r = requests.get(url=url)
+        self.assertEqual(check_day_or_night(r.json()), "GOOD DAY")
 
     def test_my_fun(self):
         self.assertEqual(my_good_fun(), "success")

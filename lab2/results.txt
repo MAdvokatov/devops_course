@@ -1,0 +1,35 @@
+============================= test session starts ==============================
+platform darwin -- Python 3.7.13, pytest-7.1.2, pluggy-1.0.0
+rootdir: /Users/mario/test/devops_course/lab2
+collected 6 items
+
+tests/tests.py .....F                                                    [100%]
+
+=================================== FAILURES ===================================
+__________________________ TestClass.test_task_9_DAY ___________________________
+
+self = <tests.tests.TestClass testMethod=test_task_9_DAY>
+
+    def test_task_9_DAY(self):
+        url = "http://date.jsontest.com/"
+        r = requests.get(url=url)
+>       self.assertEqual(check_day_or_night(r.json()), "GOOD DAY")
+E       AssertionError: 'GOOD NIGHT' != 'GOOD DAY'
+E       - GOOD NIGHT
+E       + GOOD DAY
+
+tests/tests.py:32: AssertionError
+----------------------------- Captured stdout call -----------------------------
+GOOD NIGHT
+=========================== short test summary info ============================
+FAILED tests/tests.py::TestClass::test_task_9_DAY - AssertionError: 'GOOD NIG...
+========================= 1 failed, 5 passed in 0.99s ==========================
+========================================
+Результат без параметрів: 
+No URL passed to function
+========================================
+Результат з правильною URL: 
+Time is:  11:40:43 AM
+Date is:  07-14-2022
+GOOD NIGHT
+success

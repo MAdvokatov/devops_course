@@ -21,7 +21,18 @@ def check_day_or_night(d):
         elif night in d['time']:
             print("GOOD NIGHT")
 
+TASK 9 - > Wrote a simple test to check if the return value of the command is equal to GOOD DAY , which in my case will fail as it was showing AM before when I tried it . 
 
+def test_task_9_DAY(self):
+        url = "http://date.jsontest.com/"
+        r = requests.get(url=url)
+        self.assertEqual(check_day_or_night(r.json()), "GOOD DAY")
+
+TASK 10 - > The command I used was: 
+	pytest tests/tests.py > results.txt || python3 app.py >> results.txt
+
+#used python3 instead of python as I have an alias for python 10 as python and the project here uses 3.7 (as per the initial installation for pipenv) .
+ 
 
 
 
