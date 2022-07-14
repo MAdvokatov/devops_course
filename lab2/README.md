@@ -40,6 +40,57 @@ TASK 12 - > Updated the Makefile so it can go through all the steps automaticall
 
 TASK 13 - > Will commit and push to the repo again so I can clone it after that on the Ubuntu(I created an AWS instance as it is quicker than a new virtual box)
 
+TASK 14 - > I had to install make as it was not installed on the ec2 ubuntu instance . The main issue here was that I built my makefile on a Mac OS with brew as packed manager so I had to update that to apt for ubuntu . Also had to run apt-get update before that  
+After trying for 1.30h many many issues appeared on the ubuntu offered by AWS and finally , the last issue I encountered was related to the requests module and 
 
+pipenv install requests
+/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 1.1build1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+/home/ubuntu/.local/lib/python3.10/site-packages/pkg_resources/__init__.py:123: PkgResourcesDeprecationWarning: 0.1.43ubuntu1 is an invalid version and will not be supported in a future release
+  warnings.warn(
+Installing requests...
+⠋ Installing...Failed to load paths: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'distutils.sysconfig'
 
+Output:
+⠙ Installing requests...Failed to load paths: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'distutils.sysconfig'
 
+Output:
+Failed to load paths: Traceback (most recent call last):
+  File "<string>", line 1, in <module>
+ModuleNotFoundError: No module named 'distutils.sysconfig'
+
+Output:
+Error:  An error occurred while installing requests!
+Error text:
+Traceback (most recent call last):
+  File "/usr/lib/python3.7/runpy.py", line 193, in _run_module_as_main
+    "__main__", mod_spec)
+  File "/usr/lib/python3.7/runpy.py", line 85, in _run_code
+    exec(code, run_globals)
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/__main__.py", line 29, in <module>
+    from pip._internal.cli.main import main as _main
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/cli/main.py", line 9, in <module>
+    from pip._internal.cli.autocompletion import autocomplete
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/cli/autocompletion.py", line 10, in <module>
+    from pip._internal.cli.main_parser import create_main_parser
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/cli/main_parser.py", line 8, in <module>
+    from pip._internal.cli import cmdoptions
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/cli/cmdoptions.py", line 23, in <module>
+    from pip._internal.cli.parser import ConfigOptionParser
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/cli/parser.py", line 12, in <module>
+    from pip._internal.configuration import Configuration, ConfigurationError
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/configuration.py", line 26, in <module>
+    from pip._internal.utils.logging import getLogger
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/utils/logging.py", line 27, in <module>
+    from pip._internal.utils.misc import ensure_dir
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/utils/misc.py", line 39, in <module>
+    from pip._internal.locations import get_major_minor_version
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/locations/__init__.py", line 14, in <module>
+    from . import _distutils, _sysconfig
+  File "/home/ubuntu/.local/share/virtualenvs/lab2-whCfRT2V/lib/python3.7/site-packages/pip/_internal/locations/_distutils.py", line 9, in <module>
+    from distutils.cmd import Command as DistutilsCommand
+ModuleNotFoundError: No module named 'distutils.cmd'
