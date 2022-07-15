@@ -1,0 +1,9 @@
+
+INFO 2022-07-15 12:30:23,671 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-15 12:30:23,671 root : Сервер доступний. Час на сервері: 15/07/2022
+INFO 2022-07-15 12:30:23,671 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-15 12:30:23,671 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-15 12:30:23,671 root : Ключ: date, Значення: 15/07/2022
+INFO 2022-07-15 12:30:23,671 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-15 12:30:23,671 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-15 12:30:23,671 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
