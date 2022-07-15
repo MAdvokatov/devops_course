@@ -5,8 +5,13 @@ name = "pypi"
 
 [packages]
 django = "*"
+requests = "*"
 
 [dev-packages]
 
 [requires]
 python_version = "3.7"
+
+[scripts]
+server="python manage.py runserver"
+monitor="python3 monitoring.py"

@@ -1,3 +1,5 @@
+import time
+
 import requests
 import json
 import logging
@@ -13,14 +15,21 @@ log = logging.getLogger(__name__)
 
 
 def main(url):
-    r = requests.get(url)
-    data = json.loads(r.content)
-    logging.info("Сервер доступний. Час на сервері: %s", data['date'])
-    logging.info("Запитувана сторінка: : %s", data['current_page'])
-    logging.info("Відповідь сервера місти наступні поля:")
-    for key in data.keys():
-        logging.info("Ключ: %s, Значення: %s", key, data[key])
+    try:
+        r = requests.get(url)
+        data = json.loads(r.content)
+        logging.info(
+            "The server is up and running ,will skip the translation of the other messages below to save time.")
+        logging.info("Сервер доступний. Час на сервері: %s", data['date'])
+        logging.info("Запитувана сторінка: : %s", data['current_page'])
+        logging.info("Відповідь сервера місти наступні поля:")
+        for key in data.keys():
+            logging.info("Ключ: %s, Значення: %s", key, data[key])
+    except requests.exceptions.RequestException as e:
+        logging.error("ERROR WITHIN THE SERVER ")
 
 
 if __name__ == '__main__':
-    main("http://localhost:8000/health")
+    while True:
+        main("http://localhost:8000/health")
+        time.sleep(60)
