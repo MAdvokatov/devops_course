@@ -19,7 +19,7 @@ RUN cp /lab/devops_course/lab3/Pipfile /app/Pipfile
 RUN cp /lab/devops_course/lab3/Pipfile.lock /app/Pipfile.lock
 
 # Інсталюємо всі залежності
-RUN pipenv install 
+RUN pipenv install
 
 # Відкриваємо порт 8000 на зовні
 EXPOSE 8000

@@ -22,3 +22,51 @@ INFO 2022-07-18 07:27:57,427 root : Ключ: date, Значення: 18/07/2022
 INFO 2022-07-18 07:27:57,428 root : Ключ: current_page, Значення: localhost:8000/health/
 INFO 2022-07-18 07:27:57,429 root : Ключ: server_info, Значення: #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 aarch64 5370b5133f56
 INFO 2022-07-18 07:27:57,430 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 172.20.0.1
+INFO 2022-07-18 07:28:57,488 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-18 07:28:57,491 root : Сервер доступний. Час на сервері: 18/07/2022
+INFO 2022-07-18 07:28:57,493 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-18 07:28:57,494 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-18 07:28:57,495 root : Ключ: date, Значення: 18/07/2022
+INFO 2022-07-18 07:28:57,496 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-18 07:28:57,497 root : Ключ: server_info, Значення: #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 aarch64 5370b5133f56
+INFO 2022-07-18 07:28:57,498 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 172.20.0.1
+INFO 2022-07-18 07:29:57,568 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-18 07:29:57,571 root : Сервер доступний. Час на сервері: 18/07/2022
+INFO 2022-07-18 07:29:57,573 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-18 07:29:57,575 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-18 07:29:57,577 root : Ключ: date, Значення: 18/07/2022
+INFO 2022-07-18 07:29:57,579 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-18 07:29:57,580 root : Ключ: server_info, Значення: #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 aarch64 5370b5133f56
+INFO 2022-07-18 07:29:57,581 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 172.20.0.1
+INFO 2022-07-18 07:30:57,674 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-18 07:30:57,683 root : Сервер доступний. Час на сервері: 18/07/2022
+INFO 2022-07-18 07:30:57,684 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-18 07:30:57,687 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-18 07:30:57,689 root : Ключ: date, Значення: 18/07/2022
+INFO 2022-07-18 07:30:57,690 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-18 07:30:57,691 root : Ключ: server_info, Значення: #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 aarch64 5370b5133f56
+INFO 2022-07-18 07:30:57,692 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 172.20.0.1
+INFO 2022-07-18 07:31:57,783 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-18 07:31:57,784 root : Сервер доступний. Час на сервері: 18/07/2022
+INFO 2022-07-18 07:31:57,786 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-18 07:31:57,788 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-18 07:31:57,789 root : Ключ: date, Значення: 18/07/2022
+INFO 2022-07-18 07:31:57,790 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-18 07:31:57,791 root : Ключ: server_info, Значення: #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 aarch64 5370b5133f56
+INFO 2022-07-18 07:31:57,792 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 172.20.0.1
+INFO 2022-07-18 07:32:57,885 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-18 07:32:57,887 root : Сервер доступний. Час на сервері: 18/07/2022
+INFO 2022-07-18 07:32:57,889 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-18 07:32:57,891 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-18 07:32:57,892 root : Ключ: date, Значення: 18/07/2022
+INFO 2022-07-18 07:32:57,894 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-18 07:32:57,895 root : Ключ: server_info, Значення: #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 aarch64 5370b5133f56
+INFO 2022-07-18 07:32:57,896 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 172.20.0.1
+INFO 2022-07-18 07:33:57,950 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-18 07:33:57,953 root : Сервер доступний. Час на сервері: 18/07/2022
+INFO 2022-07-18 07:33:57,955 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-18 07:33:57,957 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-18 07:33:57,958 root : Ключ: date, Значення: 18/07/2022
+INFO 2022-07-18 07:33:57,959 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-18 07:33:57,961 root : Ключ: server_info, Значення: #1 SMP PREEMPT Thu Mar 17 17:05:54 UTC 2022 aarch64 5370b5133f56
+INFO 2022-07-18 07:33:57,963 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 172.20.0.1
