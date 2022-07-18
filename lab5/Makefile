@@ -30,4 +30,9 @@ docker-prune:
 	&& docker network prune --force \
 	&& docker image prune --force
 
+docker-push:
+	@docker push $(REPO):$(STATE)
+	@docker push $(REPO):$(STATE_TEST)
 
+docker-image-remove:
+	@docker rmi $$(docker images -a -q) --force

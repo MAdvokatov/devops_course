@@ -1,0 +1,26 @@
+version: '3.7'
+services:
+  server:
+    build:
+      context: /Users/mario/test/devops_course/lab4
+      dockerfile: Dockerfile
+    image: marioadvokatov/devops_course:django-compose
+    container_name: django-composed
+    networks:
+      - django-net
+    ports:
+      - "8000:8000"
+
+  monitoring:
+    build:
+      context: /Users/mario/test/devops_course/lab4
+      dockerfile: Dockerfile.site
+    image: madvokatov/devops_course:monitoring-compose
+    container_name: monitoring-composed
+    network_mode: host
+
+networks:
+  django-net:
+    driver: bridge
+
+
