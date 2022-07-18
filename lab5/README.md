@@ -20,6 +20,26 @@ docker-prune just clears all containers/volumes/networks/images .
 
 9. At first used only make and it just created the image app (it does not consider tests at all for some reason ) . That made me spent some hrs and I finally gave up trying to rewrite it so it can work and just did these in 2 different dependancies and bound them to the other dependancy directives and now it works as expected (just a bit bruteforcing) . 
 
+10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
 
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again . 10. The project was in detached mode so I had nothing to stop with ctrl+c so I just used make docker-prune to clean all the resources I created (although the images I created were not pruned but that is a specific of the docker prune command used in the makefile ) . 
+
+11. I had previously updated the images to my dockerhub , but will just remove them and update them again using the makefile directive . 
 
 
