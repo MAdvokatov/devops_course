@@ -21,7 +21,7 @@ run: $(STATE)
 	&& docker run --rm --name app --net=appnet -p 5000:5000 -d $(REPO):app
 
 test-app: $(STATE_TEST)
-	@docker run --rm -it --name test --net=appnet $(REPO):tests
+	@docker run --rm --name test --net=appnet $(REPO):tests
 
 docker-prune:
 	@docker rm $$(docker ps -a -q) --force || true \
