@@ -22,3 +22,6 @@ Rewrote the travis file agian so the makefile in lab5 can upload the docker imag
 
 script:
         - make docker-push
+
+
+![Image of the tests](scshoot.png)
