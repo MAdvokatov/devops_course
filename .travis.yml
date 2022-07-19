@@ -23,7 +23,7 @@ jobs:
         - cd ./lab4/
       script:
         - docker build -t madvokatov/devops_course:django-travis .
-        - docker build -f Dockerfile.tests -t madvokatov/devops_course:django-monitoring .
+        - docker build -f Dockerfile.site -t madvokatov/devops_course:django-monitoring .
         - docker images
         - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push madvokatov/devops_course:django-travis; else echo "PR skip deploy"; fi
         - if [ "$TRAVIS_PULL_REQUEST" == "false" ]; then echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin; docker push madvokatov/devops_course:django-monitoring; else echo "PR skip deploy"; fi
