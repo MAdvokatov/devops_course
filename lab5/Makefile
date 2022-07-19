@@ -31,6 +31,7 @@ docker-prune:
 	&& docker image prune --force
 
 docker-push:
+	@docker login
 	@docker push $(REPO):$(STATE)
 	@docker push $(REPO):$(STATE_TEST)
 
