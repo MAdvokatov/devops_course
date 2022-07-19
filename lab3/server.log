@@ -23,3 +23,84 @@ INFO 2022-07-15 15:45:39,159 root : Ключ: date, Значення: 15/07/2022
 INFO 2022-07-15 15:45:39,159 root : Ключ: current_page, Значення: localhost:8000/health/
 INFO 2022-07-15 15:45:39,159 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
 INFO 2022-07-15 15:45:39,159 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+ERROR 2022-07-19 12:37:36,929 root : ERROR WITHIN THE SERVER 
+INFO 2022-07-19 12:38:31,501 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:38:31,502 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:38:31,502 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:38:31,502 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:38:31,502 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:38:31,502 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:38:31,502 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:38:31,502 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:39:01,263 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:39:01,263 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:39:01,263 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:39:01,263 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:39:01,263 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:39:01,263 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:39:01,263 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:39:01,263 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:40:01,280 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:40:01,280 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:40:01,280 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:40:01,280 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:40:01,280 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:40:01,280 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:40:01,280 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:40:01,280 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:41:01,308 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:41:01,309 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:41:01,309 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:41:01,309 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:41:01,309 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:41:01,309 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:41:01,309 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:41:01,309 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:42:01,342 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:42:01,344 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:42:01,344 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:42:01,344 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:42:01,344 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:42:01,344 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:42:01,344 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:42:01,345 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:43:01,369 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:43:01,370 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:43:01,370 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:43:01,370 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:43:01,370 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:43:01,370 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:43:01,370 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:43:01,370 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:44:01,400 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:44:01,400 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:44:01,400 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:44:01,400 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:44:01,400 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:44:01,400 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:44:01,400 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:44:01,400 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:45:01,420 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:45:01,421 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:45:01,421 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:45:01,421 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:45:01,421 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:45:01,421 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:45:01,421 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:45:01,421 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:46:01,445 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:46:01,447 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:46:01,447 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:46:01,447 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:46:01,447 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:46:01,447 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:46:01,447 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:46:01,447 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
+INFO 2022-07-19 12:47:01,475 root : The server is up and running ,will skip the translation of the other messages below to save time.
+INFO 2022-07-19 12:47:01,475 root : Сервер доступний. Час на сервері: 19/07/2022
+INFO 2022-07-19 12:47:01,475 root : Запитувана сторінка: : localhost:8000/health/
+INFO 2022-07-19 12:47:01,475 root : Відповідь сервера місти наступні поля:
+INFO 2022-07-19 12:47:01,476 root : Ключ: date, Значення: 19/07/2022
+INFO 2022-07-19 12:47:01,476 root : Ключ: current_page, Значення: localhost:8000/health/
+INFO 2022-07-19 12:47:01,476 root : Ключ: server_info, Значення: Darwin Kernel Version 21.5.0: Tue Apr 26 21:08:37 PDT 2022; root:xnu-8020.121.3~4/RELEASE_ARM64_T6000 arm64 Marios-MacBook-Pro.local
+INFO 2022-07-19 12:47:01,476 root : Ключ: client_info, Значення: python-requests/2.28.1 , The IP ADDRESS THIS REQUEST IS COMING FROM IS : 127.0.0.1
