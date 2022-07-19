@@ -1,17 +1,26 @@
-STATES := app tests
-REPO := bobas/lab4-examples
+STATE = app
+STATE_TEST = tests
+REPO := madvokatov/devops_course
 
-.PHONY: $(STATES)
+.PHONY: $(STATE)
+.PHONY: $(STATE_TEST)
 
-$(STATES):
-	@docker build -f Dockerfile.$(@) -t $(REPO):$(@) .
+#for some reason the loop is not working and it goes through app only ignoring tests . Will make it manually as I spent 2-3h trying to make it work but it does not .
 
-run:
+$(STATE): $(STATE_TEST)
+	@docker build -f Dockerfile.$@ -t $(REPO):$@ .
+	@echo "image with tag $@ built"
+
+$(STATE_TEST):
+	@docker build -f Dockerfile.$@ -t $(REPO):$@ .
+	@echo "image with tag $@ built"
+
+run: $(STATE)
 	@docker network create --driver=bridge appnet \
 	&& docker run --rm --name redis --net=appnet -d redis \
 	&& docker run --rm --name app --net=appnet -p 5000:5000 -d $(REPO):app
 
-test-app:
+test-app: $(STATE_TEST)
 	@docker run --rm -it --name test --net=appnet $(REPO):tests
 
 docker-prune:
@@ -22,8 +31,8 @@ docker-prune:
 	&& docker image prune --force
 
 docker-push:
-	@docker push $(REPO):app
-	@docker push $(REPO):tests
+	@docker push $(REPO):$(STATE)
+	@docker push $(REPO):$(STATE_TEST)
 
 docker-image-remove:
 	@docker rmi $$(docker images -a -q) --force
