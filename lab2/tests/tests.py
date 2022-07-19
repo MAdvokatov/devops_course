@@ -29,7 +29,7 @@ class TestClass(unittest.TestCase):
     def test_task_9_DAY(self):
         url = "http://date.jsontest.com/"
         r = requests.get(url=url)
-        self.assertEqual(check_day_or_night(r.json()), "GOOD DAY")
+        self.assertEqual(check_day_or_night(r.json()), "GOOD NIGHT")
 
     def test_my_fun(self):
         self.assertEqual(my_good_fun(), "success")
