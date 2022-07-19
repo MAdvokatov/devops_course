@@ -25,3 +25,6 @@ script:
 
 
 ![Image of the tests](scshoot.png)
+
+
+[Path to Travis](https://app.travis-ci.com/github/MAdvokatov/devops_course/builds)
