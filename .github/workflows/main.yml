@@ -28,6 +28,6 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run tests for lab2
         run: |
-          cd ./lab2/,
-          pipenv install,
+          cd ./lab2/
+          pipenv install
           pipenv run pytest tests/tests.py || true
