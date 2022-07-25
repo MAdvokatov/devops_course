@@ -44,7 +44,7 @@ jobs:
         with:
           context: ./lab4/
           push: true
-          tags: user/devops_course:latest-try
+          tags: ${{ secrets.DOCKERHUB_USERNAME }}/devops_course:latest-try
           
       # Runs a single command using the runners shell
       - name: Run tests for lab2
