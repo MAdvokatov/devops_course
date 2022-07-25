@@ -36,6 +36,6 @@ jobs:
       - name: Run tests for lab2
         run: |
           cd ./lab2/
-          apt-get install pipenv -y
+          sudo apt-get install pipenv -y
           pipenv install
           pipenv run pytest tests/tests.py || true
