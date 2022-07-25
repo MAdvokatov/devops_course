@@ -23,6 +23,7 @@ jobs:
       matrix:
         # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
         python-version: ['3.7']
+  
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
@@ -31,11 +32,9 @@ jobs:
       - uses: actions/setup-python@v4
         with:
           python-version: ${{ matrix.python-version }}
-
+          architecture: 'x86'
+          
       # Runs a single command using the runners shell
       - name: Run tests for lab2
-        run: |
-          cd ./lab2/
-          sudo apt-get install pipenv -y
-          pipenv install
-          pipenv run pytest tests/tests.py || true
+ 
+        run: python --version
