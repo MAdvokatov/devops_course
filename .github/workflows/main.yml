@@ -18,7 +18,7 @@ jobs:
   # This workflow contains a single job called "build"
   build:
     # The type of runner that the job will run on
-    runs-on: ubuntu-latest
+    runs-on: macos-latest
     strategy:
       matrix:
         # in this example, there is a newer version already installed, 3.7.7, so the older version will be downloaded
@@ -36,4 +36,7 @@ jobs:
       # Runs a single command using the runners shell
       - name: Run tests for lab2
  
-        run: python --version
+        run: |
+          cd ./lab2/
+          sudo brew install pipenv -y
+          
