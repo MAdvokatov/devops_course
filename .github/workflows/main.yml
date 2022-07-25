@@ -38,5 +38,5 @@ jobs:
  
         run: |
           cd ./lab2/
-          sudo brew install pipenv -y
+          brew install pipenv
           
