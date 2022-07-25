@@ -39,4 +39,8 @@ jobs:
         run: |
           cd ./lab2/
           brew install pipenv
+          pipenv install
+          pipenv run pytest tests/tests.py || true
+          
+          
           
