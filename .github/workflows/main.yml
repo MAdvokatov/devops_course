@@ -42,5 +42,12 @@ jobs:
           pipenv install
           pipenv run pytest tests/tests.py || true
           
+      - name: Run tests for lab 4
+        run: |
+          cd ./lab4/
+          docker build -t madvokatov/devops_course:django-github-actions
+          docker build -f Dockerfile.site -t madvokatov/devops_course:django-github-monitoring
+          docker images
+          
           
           
